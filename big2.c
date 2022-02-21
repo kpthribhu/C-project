@@ -1,5 +1,5 @@
 #include <stdio.h>
-biggest2()
+void biggest2()
 {
     int num1, num2;
     // Ask user to enter the two numbers

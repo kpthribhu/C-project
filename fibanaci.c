@@ -1,5 +1,5 @@
 #include <stdio.h>
-fibanaci() {
+void fibanaci() {
 
   int i, n;
 
@@ -24,6 +24,5 @@ fibanaci() {
     nextTerm = t1 + t2;
   }
 
-  return 0;
 }
 

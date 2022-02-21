@@ -1,8 +1,8 @@
 #include <stdio.h>
-sortnum(){
+void sortnum(){
    int num[20];
    int i, j, a, n;
-   printf("enter number of elements in an array\n");
+   printf("\nenter number of elements in an array\n");
    scanf("%d", &n);
    printf("Enter the elements\n");
    for (i = 0; i < n; ++i)

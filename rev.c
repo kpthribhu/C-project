@@ -1,11 +1,11 @@
 #include <stdio.h>
-reverse()
+void reverse()
 {
   char str[1000], rev[1000];
   int i, j, count = 0;
-printf("\nEnter string to reverse");
+printf("\nEnter string to reverse\n");
   scanf("%s", str);
-  printf("\nString Before Reverse: %s", str);
+  printf("String Before Reverse: %s\n", str);
   //finding the length of the string
   while (str[count] != '\0')
   {
@@ -20,5 +20,5 @@ printf("\nEnter string to reverse");
     j--;
   }
 
-  printf("\nString After Reverse: %s", rev);
+  printf("\nString After Reverse: %s\n", rev);
 }
